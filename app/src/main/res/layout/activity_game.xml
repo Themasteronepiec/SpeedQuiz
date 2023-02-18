@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?><!--RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/game_name_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:padding="1dp"
+        android:rotation="-180"
+        android:text="@string/game_name_player1"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/game_button_player1"
+        style="@style/Barre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"></Button>
+
+    <TextView
+        android:id="@+id/game_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:padding="@dimen/game_label_size"
+        android:rotation="-180"
+        android:text="@string/game_question"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/game_score_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/blue"
+        android:padding="1dp"
+        android:rotation="-180"
+        android:text="@string/game_score_player1"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/game_score_player1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/game_button_player1"
+        android:layout_marginTop="100dp"
+        android:background="@color/red"
+        android:padding="1dp"
+        android:rotation="-180"
+        android:text="@string/game_score_player2"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/game_score_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/game_score_player1_2"
+        android:layout_marginTop="250dp"
+        android:background="@color/red"
+        android:padding="1dp"
+        android:text="@string/game_score_player2"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/game_score_player2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/game_score_player1"
+        android:layout_marginTop="250dp"
+        android:background="@color/blue"
+        android:padding="1dp"
+        android:text="@string/game_score_player1"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/game_button_replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="250dp"
+        android:backgroundTint="@color/green"
+        android:text="Replay"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/game_button_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="250dp"
+        android:backgroundTint="@color/red"
+        android:text="Quit"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/game_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:padding="@dimen/main_label_size"
+        android:text="@string/game_question"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/game_button_player2"
+        style="@style/Barre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:id="@+id/game_name_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:padding="1dp"
+        android:text="@string/game_name_player2"
+        android:textSize="20sp" />
+</RelativeLayout-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/game_name_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:background="@color/blue"
+        android:padding="1dp"
+        android:rotation="-180"
+        android:text="@string/game_name_player1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="426dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/game_button_player1"
+        style="@style/Barre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/game_name_player1"
+        app:layout_constraintEnd_toStartOf="@id/game_score_player1_2"
+        app:layout_constraintStart_toEndOf="@id/game_score_player1"/>
+
+    <TextView
+        android:id="@+id/game_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:gravity="center"
+        android:padding="@dimen/game_label_size"
+        android:rotation="-180"
+        android:text="@string/game_question"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/game_button_player1"
+        app:layout_constraintStart_toStartOf="@id/game_button_player1"
+        app:layout_constraintTop_toBottomOf="@id/game_button_player1" />
+
+    <TextView
+        android:id="@+id/game_score_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/blue"
+        android:padding="1dp"
+        android:rotation="-180"
+        android:text="@string/game_score_player1"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/game_score_player1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/game_button_player1"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/red"
+        android:padding="1dp"
+        android:rotation="-180"
+        android:text="@string/game_score_player2"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/game_score_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/game_score_player1_2"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/red"
+        android:padding="1dp"
+        android:text="@string/game_score_player2"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/game_score_player2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/game_score_player1"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/blue"
+        android:padding="1dp"
+        android:text="@string/game_score_player1"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/game_layout_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/game_button_replay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/green"
+            android:text="Replay"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/game_button_quit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/game_button_quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/red"
+            android:text="Quit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/game_button_replay"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/game_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="50dp"
+        android:gravity="center"
+        android:padding="@dimen/main_label_size"
+        android:text="@string/game_question"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/game_button_player2"
+        app:layout_constraintStart_toStartOf="@id/game_button_player2"
+        app:layout_constraintEnd_toEndOf="@id/game_button_player2"/>
+
+    <Button
+        android:id="@+id/game_button_player2"
+        style="@style/Barre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="50dp"
+        app:layout_constraintBottom_toTopOf="@id/game_name_player2"
+        app:layout_constraintEnd_toStartOf="@id/game_score_player2"
+        app:layout_constraintStart_toEndOf="@id/game_score_player2_1"/>
+
+    <TextView
+        android:id="@+id/game_name_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:padding="1dp"
+        android:text="@string/game_name_player2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

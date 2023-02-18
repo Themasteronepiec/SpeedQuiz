@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SpeedQuiz</string>
+    <string name="main_title">Speed Quiz</string>
+    <string name="main_button_convert">Convert</string>
+    <string name="main_button_cancel">Cancel</string>
+    <string name="main_button_play">Play</string>
+    <string name="menu_favori">Favori</string>
+    <string name="main_delete">Delete</string>
+    <string name="action_settings">Configuration</string>
+    <string name="about">About</string>
+    <string name="saisir_Joueur1">Saisir Joueur 1</string>
+    <string name="saisir_Joueur2">Saisir Joueur 2</string>
+    <string name="game_name_player1">Catapulte</string>
+    <string name="game_name_player2">Garage</string>
+    <string name="game_bar_player1">Hidden</string>
+    <string name="game_bar_player2">Hidden too</string>
+    <string name="game_score_player1">28</string>
+    <string name="game_score_player2">3</string>
+    <string name="game_score_player1_2">@string/game_score_player2</string>
+    <string name="game_score_player2_1">@string/game_score_player1</string>
+    <string name="game_question">C\'est pas un boa ça</string>
+    <string name="game_button_quit">Quit</string>
+    <string name="game_button_replay">Replay</string>
+</resources>

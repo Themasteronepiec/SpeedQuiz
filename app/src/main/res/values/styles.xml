@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Styles des textInput-->
+    <!-- Style pour l'input player -->
+    <style name="Widget.Player1" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/Widget.Player1</item>
+        <item name="hintTextColor">@color/textColorPrimary</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+    <style name="Widget.Player2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <item name="hintTextAppearance">@style/Widget.Player2</item>
+    <item name="hintTextColor">@color/textColorPrimary</item>
+    <item name="android:paddingBottom">8dp</item>
+    <item name="android:background">@color/red</item>
+    </style>
+    <!-- Style pour l'input texte invisible -->
+    <style name="Widget.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <!-- Style pour l'input barre de jeu -->
+    <style name="Barre" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+</resources>

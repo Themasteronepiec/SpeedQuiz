@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimension génériques -->
+    <dimen name="app_margin">30dp</dimen>
+    <!-- Dimensions main activity -->
+    <dimen name="main_img_size">64dp</dimen>
+    <dimen name="main_label_size">20dp</dimen>
+    <!-- Dimensions game activity -->
+    <dimen name="game_img_size">64dp</dimen>
+    <dimen name="game_label_size">20dp</dimen>
+</resources>
